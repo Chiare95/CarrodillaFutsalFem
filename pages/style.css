@@ -1,0 +1,116 @@
+
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+
+header {
+    color: white;
+    margin: 0px;
+}
+
+/************************************************************ NAVEGACION*******************************************************************/
+nav {
+    background-color: #ffffff;
+    height: 80px;
+    width: 85rem;
+    margin: 0;
+    position: fixed;
+}
+
+.letras {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    right: 25px;
+}
+
+li {
+    display: inline;
+    margin-right: 60px;
+}
+
+.logo img {
+width: 80px;
+padding-left: 10px;
+}
+
+/****************************************************************CONTENIDO***************************************************************/
+.container {
+    width: 82rem;
+    height: 40rem;
+    background-image: url(/src/assets/images/carrodillafemenino.jpeg);
+    background-position: 50% 50%;
+    background-size: 85rem;
+    background-repeat: no-repeat;
+
+    
+}
+
+& .filtro {
+    background-color: rgba(0, 0, 0, 0,);
+    width:inherit;
+    height: inherit;
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: lightgray;
+}
+
+h2 {
+    color: yellow;
+    text-align: center;
+    }
+
+h3 {
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+/*****************************************************CIERRE DE PAGINA******************************************************************/
+footer {
+    background-color: #ffffff;
+    width: 82,5rem;
+    height: 12rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.footer-foto img {
+    width: 150px;
+    justify-items: left;
+    position: relative;
+    padding-top: 25px;
+}
+
+.footer-links{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    padding-right: 10px;
+}
+
+}
